@@ -2,6 +2,7 @@ body {
   text-align: center;
   background-color: #283149;
   margin: 0 auto;
+  min-height: 80vh;
 }
 
 h1 {
