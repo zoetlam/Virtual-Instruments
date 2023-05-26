@@ -2,15 +2,16 @@ body {
   text-align: center;
   background-color: #283149;
   margin: 0 auto;
-  min-height: 80vh;
+  min-height: 100vh;
+  max-height: 100vh;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
-
+  margin-bottom: 0px;
 }
 
 footer {
@@ -49,7 +50,8 @@ footer {
 }
 
 .set {
-  margin: 10% auto;
+  margin: 15px auto;
+  
 }
 
 .game-over {
@@ -85,3 +87,30 @@ footer {
   cursor: pointer;
 }
 
+@media screen and (max-width: 767px){
+  h1{
+      font-size: 3.5rem;
+      margin: 5px auto 0 auto;
+  }
+  .set{
+    margin: 20px auto ;
+  }
+  .drum{
+    outline: none;
+    border: 8px solid #404B69;
+    font-size: 3rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 5px;
+    background-color: white;
+    cursor: pointer;
+  }
+}
