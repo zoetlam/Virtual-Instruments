@@ -6,7 +6,7 @@ function makeSound(value){
 }
 
 for (let i = 0; i < document.querySelectorAll('.drum').length; i++){   
-        document.querySelectorAll('.drum')[i].addEventListener('click',function () {makeSound(i);});  
+    document.querySelectorAll('.drum')[i].addEventListener('click',function () {makeSound(i);});  
 }
 document.addEventListener('keydown', function(event){
     makeSound(arrLetters.indexOf(event.key));
