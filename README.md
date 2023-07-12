@@ -23,7 +23,8 @@ The CSS styles define the appearance and animations of the drum kit elements. Th
 
 **JavaScript Functionality**
 
-The JavaScript code provides the functionality of the drum kit application. It performs the following actions:
-Plays the corresponding drum sound when a drum button is clicked or when the corresponding key is pressed.
-Applies a visual feedback by adding a "pressed" class to the drum button when it is clicked or pressed, and removes it after a short time.
-Handles keyboard events to trigger drum sounds when the corresponding key is pressed.
+Plays the corresponding drum sound when a drum button is clicked or when the corresponding key is pressed.
+
+Applies a visual feedback by adding a "pressed" class to the drum button when it is clicked or pressed, and removes it after a short time.
+
+Handles keyboard events to trigger drum sounds when the corresponding key is pressed.
