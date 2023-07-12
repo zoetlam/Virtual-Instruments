@@ -8,14 +8,10 @@ The code for the Drum Kit Application consists of an HTML file that includes CSS
 **HTML Structure**
 
 The HTML structure of the Drum Kit Application includes the following components:
-
-**`<h1>`** : Displays the title of the drum kit application.
-
-**`<div class="set">`** : Contains the drum buttons.
-
-**`<button class="drum">`** : Represents each drum sound button.
-
-**`<footer>`** : Displays the author's information.
+`<h1>`: Displays the title of the drum kit application.
+`<div class="set">`: Contains the drum buttons.
+`<button class="drum">`: Represents each drum sound button.
+`<footer>`: Displays the author's information.
 
 **CSS Styles**
 
