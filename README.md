@@ -4,6 +4,7 @@ The Drum Kit Application is a web-based drum kit that allows users to play diffe
 The code for the Drum Kit Application consists of an HTML file that includes CSS styles and JavaScript code. The HTML structure defines the layout of the drum kit, the CSS styles handle the appearance and animations, and the JavaScript code provides the logic and functionality.
 
 **Code Components**
+
 **HTML Structure**
 The HTML structure of the Drum Kit Application includes the following components:
 **`<h1>`**: Displays the title of the drum kit application.
