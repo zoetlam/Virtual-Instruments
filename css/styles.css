@@ -1,4 +1,20 @@
-body {
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kanit:wght@300&display=swap');
+/* font-family: 'Indie Flower', cursive;
+font-family: 'Kanit', sans-serif; */
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+/* body of all Pages */
+#pianoPage{
+    background-color: darkolivegreen;
+    margin: 0 auto;
+    height: 100vh;
+    text-align: center;
+}
+#drumPage {
   text-align: center;
   background-color: #283149;
   margin: 0 auto;
@@ -6,12 +22,21 @@ body {
   max-height: 100vh;
 }
 
-h1 {
+/* Tittle of all Pages */
+#drumTitle{
   font-size: 8rem;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
   margin: 60px auto 60px;
+}
+
+#pianoTitle{
+  margin: 0 auto 20px;
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  font-size: 6rem;
+  color: wheat
 }
 
 footer {
@@ -84,6 +109,59 @@ footer {
   background-color: white;
   cursor: pointer;
 }
+
+.piano{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+a{
+  color: whitesmoke;
+  text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+}
+
+a:hover{
+  color: darkkhaki;
+}
+
+.white{
+  background-color: whitesmoke;
+  width: 60px;
+  height: 350px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 0;
+  color: #bbbbbc;
+}
+.black{
+  background-color: black;
+  width: 40px;
+  height: 220px;
+  position: relative;
+  margin-left: -20px;
+  margin-right: -20px;
+  z-index: 1;
+  color: #434343;
+}
+
+/* Letter position on piano */
+.key{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+
+.key:hover{
+  cursor: pointer;
+}
+
 
 @media screen and (max-width: 767px){
   h1{
