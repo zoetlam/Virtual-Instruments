@@ -21,8 +21,31 @@ font-family: 'Kanit', sans-serif; */
   min-height: 100vh;
   max-height: 100vh;
 }
+#welcome-page{
+  margin: 0 auto;
+  height: 100vh;
+  background-image: url("../images/welcome-background3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  backdrop-filter: blur(10px); /* Adjust the value to control the level of blur */
+  padding: 20px;
+  color: whitesmoke
+}
+
+.wc-container{
+  margin: 0 auto;
+  width: 70%;
+  padding: 0 50px;
+  font-size: 1.3rem;
+}
 
 /* Tittle of all Pages */
+#welcomeTitle{
+  font-size: 4rem;
+  text-align: center;
+  opacity: 100%;
+}
+
 #drumTitle{
   font-size: 8rem;
   color: #DBEDF3;
@@ -37,6 +60,25 @@ font-family: 'Kanit', sans-serif; */
   text-align: center;
   font-size: 6rem;
   color: wheat
+}
+
+#products{
+  display: flex;
+  justify-content:center;
+}
+.welcome{
+  width: 150px;
+  height: 150px;
+  background-size: 100% 100%;
+  border-radius: 20px;
+  margin: 20px;
+}
+.wc-Drum{
+  background-image: url('../images/drum.jpeg');
+}
+
+.wc-Piano{
+  background-image: url('../images/Piano.jpeg');
 }
 
 footer {
@@ -123,8 +165,17 @@ a{
   font-size: 2rem;
 }
 
+.welcome a{
+  color: whitesmoke;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
 a:hover{
   color: darkkhaki;
+}
+
+.welcome a:hover{
+  color: yellow;
 }
 
 .white{
